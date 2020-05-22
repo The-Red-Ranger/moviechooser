@@ -1,0 +1,19 @@
+# Movie Night Selector - Python 3
+
+#WorkInProgress version of Movie Selector, outputting Bad, Good, and Okay movies 
+#Target is to randomly choose a movie from a list and output ONLY the movie name and quality
+#NOTE If output is I Monster, its actually spelt "I,Monster"
+
+#I'm brand new to coding so any advice is welcome!
+
+import random
+bMovies = "Birdemic", "Demonic Toys", "Outcast", "The Stink Of Flesh", "Thankskilling", "Priest", "Trolls 2", "Ghostkeeper", "Jurrasic Hunters", "Black Dynamite", "Navy Seals", "Shin Godzilla", "Disco Godfather", "Surf Nazis Must Die", "Icecream man", "Chopping mall", "Time Barbarians", "The Velocipastor", "Murder at Blood Orgy Lake", "Shin Godzilla", "Microwave Massacre", "Santa Clause conquers the Martians", "The Thingie", "The Toxic Avenger", "Breed", "The Ginger Dead Man", "Detroit 9000", "Crazy bitches", "Demonic Toys 2", "Treevenge", "Face Off", "Left Behind", "Ghost Rider", "Pistol Whipped", "Emoji Movie", "Resident Evil 1", "Russian Terminator", "National Treasure", "Galaxis", "The Room", "The Patriot", "Exit Wounds", "Indian Terminator", "Roar", "Tromeo & Juliet", "Shark Boy and Lava Girl", "Hangman's Curse", "Mac and Me", "Batman and Robin", "Death Wish 3", "Lifeforce", "Runaway Train", "The Delta Force", "Double Down", "Fateful Findings", "Pass Thru", "Twisted Pair", "Nightbeast", "Forrest Warrior", "The Hitman", "Bloodsport", "Fist to Fist", "Hitman", "I Monster", "Shaft", "Super fly","Alien Contamination", "Dragon Ball Evolution", "Rabid Grannies", "America 3000", "Buttcrack", "Cyborg", "Van Helsing", "Dolemite", "The Last Airbender", "Returner", "Manos: The Hand of Fate", "The Human Tornado", "Petey Whitestraw", "Inspector Gadget", "George of The Jungle", "The Black Gestapo", "Space is the Place", "The Slashening", "Attack of the Killer Tomatos", "10 Grams", "The Star Wars Christmas Special", "Spy Kids 3D"
+mMovies = "Shin Godzilla", "Dredd", "Drunken Master", "My Beloved Bodyguard", "Who Am I", "Rushhour", "The Way of the Dragon", "Hardboiled", "House of Flying Daggars", "Crouching Tiger", "The Raid", "The Raid 2", "Old Boy", "IT", "Insidious", "The Witch", "Hereditary", "Psycho", "Get Out", "The Host", "The Conjuring", "The Others", "Memories of Murder", "Raw", "Hero", "Police Story", "One cut of the dead", "The Legend of IP Man", "Project A", "Armour of God", "Meals on Wheels", "Demolition Man", "Rumble in the bronx", "Rushhour", "Predator"
+gMovies = "Children of Men", "Narcica Valley of the Wind", "Old Boy", "No Country for Old Men", "The Witch", "House of Flying Daggars", "Spirited Away", "Silence of the lambs", "Parasite"
+
+mm1 = random.choice(bMovies)
+mm2 = random.choice(mMovies)
+mm3 = random.choice(gMovies)
+mm = "Your Bad Movie is " + mm1 + "\nYour Okay Movie is " + mm2 + "\nYour Good Movie is " + mm3
+
+print(mm)
